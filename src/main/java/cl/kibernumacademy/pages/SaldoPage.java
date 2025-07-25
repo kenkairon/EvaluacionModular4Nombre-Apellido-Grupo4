@@ -2,21 +2,26 @@ package cl.kibernumacademy.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class SaldoPage {
     private WebDriver driver;
-    private By saldoTexto = By.id("saldo");
+
+    // Localizadores
+    private By inputCuenta = By.id("cuenta");
+    private By botonConsultar = By.tagName("button");
+    private By resultadoSaldo = By.id("saldoResultado");
 
     public SaldoPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public boolean saldoVisible() {
-        return driver.findElement(saldoTexto).isDisplayed();
+    public void consultarSaldo(String cuenta) {
+        driver.findElement(inputCuenta).clear();
+        driver.findElement(inputCuenta).sendKeys(cuenta);
+        driver.findElement(botonConsultar).click();
     }
 
-    public String obtenerSaldo() {
-        return driver.findElement(saldoTexto).getText().trim();
+    public boolean saldoVisible() {
+        return driver.findElement(resultadoSaldo).isDisplayed();
     }
 }

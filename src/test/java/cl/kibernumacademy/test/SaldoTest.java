@@ -23,9 +23,9 @@ public class SaldoTest {
     }
 
     @Test
-    void saldoEsVisibleYCorrecto() {
+    void consultaSaldoExitosa() {
+        saldoPage.consultarSaldo("123456");
         Assertions.assertTrue(saldoPage.saldoVisible());
-        Assertions.assertEquals("$50,000", saldoPage.obtenerSaldo());
     }
 
     @AfterEach

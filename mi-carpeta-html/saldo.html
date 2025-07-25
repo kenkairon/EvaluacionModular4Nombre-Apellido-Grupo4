@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <title>Saldo</title>
+    <meta charset="UTF-8">
+    <title>Consulta de Saldo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            background-color: #f2f2f2;
+        }
+
+        .contenedor {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 0.8rem;
+            margin-top: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #saldoResultado {
+            margin-top: 1rem;
+            display: none;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Saldo Actual</h1>
-    <p id="saldo">$50,000</p>
+    <div class="contenedor">
+        <h2>Consulta de Saldo</h2>
+        <label for="cuenta">Número de cuenta:</label>
+        <input type="text" id="cuenta" placeholder="Ingresa número de cuenta">
+        <button onclick="consultarSaldo()">Consultar</button>
+        <div id="saldoResultado">Saldo: $10.000</div>
+    </div>
+
+    <script>
+        function consultarSaldo() {
+            const cuenta = document.getElementById("cuenta").value.trim();
+            const saldoResultado = document.getElementById("saldoResultado");
+
+            if (cuenta === "") {
+                alert("Por favor, ingresa un número de cuenta.");
+                saldoResultado.style.display = "none";
+            } else {
+                // En una app real aquí se llamaría a un backend.
+                saldoResultado.style.display = "block";
+                saldoResultado.textContent = `Saldo de cuenta ${cuenta}: $10.000`;
+            }
+        }
+    </script>
 </body>
 
 </html>
