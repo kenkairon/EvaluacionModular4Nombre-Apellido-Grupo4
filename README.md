@@ -25,11 +25,28 @@ Este proyecto automatiza la prueba de una página web que simula:
 - Eduardo Arellano
 - Carlos Vasquez
 ---
-📸 Evidencias
-<p align="center">
-<img src="screenshots/loginCorrecto().png" alt="Evidencia Consulta de Saldo" width="300"/>  
-<img src="screenshots/loginInCorrecto().png" alt="Evidencia Consulta de Saldo" width="300"/> 
-<img src="screenshots/consultaSaldoExitosa().png" alt="Evidencia Consulta de Saldo" width="300"/> 
-<img src="screenshots/transferenciaExitosa().png" alt="Evidencia Transferencia Exitosa" width="300"/> 
 
-</p>
+## 📸 Evidencias
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/loginCorrecto().png" width="300"/><br/>
+      <strong>Login Correcto</strong>
+    </td>
+    <td align="center">
+      <img src="screenshots/loginIncorrecto().png" width="300"/><br/>
+      <strong>Login Incorrecto</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/consultaSaldoExitosa().png" width="300"/><br/>
+      <strong>Consulta de Saldo Exitosa</strong>
+    </td>
+    <td align="center">
+      <img src="screenshots/transferenciaExitosa().png" width="300"/><br/>
+      <strong>Transferencia Exitosa</strong>
+    </td>
+  </tr>
+</table>
