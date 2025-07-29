@@ -48,5 +48,6 @@ Este proyecto automatiza la prueba de una página web que simula:
       <img src="./screenshots/transferenciaExitosa().png" width="400"/><br/>
       <strong>Transferencia Exitosa</strong>
     </td>
+    
   </tr>
 </table>
