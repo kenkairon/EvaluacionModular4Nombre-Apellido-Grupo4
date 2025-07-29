@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cl.kibernumacademy.test.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.079 s - in cl.kibernumacademy.test.LoginTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.947 s - in cl.kibernumacademy.test.LoginTest

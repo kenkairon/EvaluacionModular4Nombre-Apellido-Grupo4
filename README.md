@@ -31,21 +31,21 @@ Este proyecto automatiza la prueba de una página web que simula:
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/loginCorrecto().png" width="400"/><br/>
+      <img src="./screenshots/loginCorrecto().png" width="400"/><br/>
       <strong>Login Correcto</strong>
     </td>
     <td align="center">
-      <img src="screenshots/loginIncorrecto().png" width="400"/><br/>
+      <img src="./screenshots/loginIncorrecto().png" width="400"/><br/>
       <strong>Login Incorrecto</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/consultaSaldoExitosa().png" width="400"/><br/>
+      <img src="./screenshots/consultaSaldoExitosa().png" width="400"/><br/>
       <strong>Consulta de Saldo Exitosa</strong>
     </td>
     <td align="center">
-      <img src="screenshots/transferenciaExitosa().png" width="400"/><br/>
+      <img src="./screenshots/transferenciaExitosa().png" width="400"/><br/>
       <strong>Transferencia Exitosa</strong>
     </td>
   </tr>
